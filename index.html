@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Admin Dashboard Odin</title>
+  </head>
+  <body>
+    <div class="dashboard">
+      <div class="logo">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="35"
+          height="35"
+          viewBox="0 0 24 24"
+          style="fill: rgba(0, 0, 0, 1); transform: ; msfilter: "
+        >
+          <path
+            d="M20 11h-2V6h1V2h-2v2h-1V2h-2v2h-1V2h-2v2h-1V2H8v2H7V2H5v4h1v5H4V9H2v12h7v-5a3 3 0 0 1 6 0v5h7V9h-2zm-10-1H8V7h2zm6 0h-2V7h2z"
+          ></path>
+        </svg>
+        DASHBOARD
+      </div>
+      <ul class="nav">
+        <li>
+          <a href="#"><img src="/images/bxs-home.svg" alt="" /> Home</a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="/images/bxs-user-rectangle.svg" alt="" /> Profile</a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><img src="/images/bxs-message-dots.svg" alt="" /> Messages</a
+          >
+        </li>
+        <li>
+          <a href="#"><img src="/images/bxs-time.svg" alt="" /> History</a>
+        </li>
+        <li>
+          <a href="#"><img src="/images/bx-task.svg" alt="" /> Tasks</a>
+        </li>
+        <li>
+          <a href="#"><img src="/images/bxs-user.svg" alt="" /> Communities</a>
+        </li>
+      </ul>
+      <ul class="nav2">
+        <li>
+          <a href="#"><img src="/images/bxs-cog.svg" alt="" /> Settings</a>
+        </li>
+        <li>
+          <a href="#"><img src="/images/bx-support.svg" alt="" /> Support</a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="/images/bxs-check-shield.svg" alt="" /> Privacy</a
+          >
+        </li>
+      </ul>
+    </div>
+    <main>
+      <header>
+        <div class="search-div">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            style="fill: rgba(0, 0, 0, 1); transform: ; msfilter: "
+          >
+            <path
+              d="M19.023 16.977a35.13 35.13 0 0 1-1.367-1.384c-.372-.378-.596-.653-.596-.653l-2.8-1.337A6.962 6.962 0 0 0 16 9c0-3.859-3.14-7-7-7S2 5.141 2 9s3.14 7 7 7c1.763 0 3.37-.66 4.603-1.739l1.337 2.8s.275.224.653.596c.387.363.896.854 1.384 1.367l1.358 1.392.604.646 2.121-2.121-.646-.604c-.379-.372-.885-.866-1.391-1.36zM9 14c-2.757 0-5-2.243-5-5s2.243-5 5-5 5 2.243 5 5-2.243 5-5 5z"
+            ></path>
+          </svg>
+          <input type="text" />
+        </div>
+        <div class="user-div">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            style="fill: rgba(0, 0, 0, 1); transform: ; msfilter: "
+          >
+            <path
+              d="m5.705 3.71-1.41-1.42C1 5.563 1 7.935 1 11h1l1-.063C3 8.009 3 6.396 5.705 3.71zm13.999-1.42-1.408 1.42C21 6.396 21 8.009 21 11l2-.063c0-3.002 0-5.374-3.296-8.647zM12 22a2.98 2.98 0 0 0 2.818-2H9.182A2.98 2.98 0 0 0 12 22zm7-7.414V10c0-3.217-2.185-5.927-5.145-6.742C13.562 2.52 12.846 2 12 2s-1.562.52-1.855 1.258C7.184 4.073 5 6.783 5 10v4.586l-1.707 1.707A.996.996 0 0 0 3 17v1a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1v-1a.996.996 0 0 0-.293-.707L19 14.586z"
+            ></path>
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="40"
+            height="40"
+            viewBox="0 0 24 24"
+            style="fill: rgba(0, 0, 0, 1); transform: ; msfilter: "
+          >
+            <path
+              d="M12 2h-1v9H2v1a10 10 0 0 0 17.07 7.07A10 10 0 0 0 12 2z"
+            ></path>
+          </svg>
+          <p id="user-name">Morgan Dakley</p>
+        </div>
+        <div class="user-main-div">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="60"
+            height="60"
+            viewBox="0 0 24 24"
+            style="fill: rgba(0, 0, 0, 1); transform: ; msfilter: "
+          >
+            <path
+              d="M12 2h-1v9H2v1a10 10 0 0 0 17.07 7.07A10 10 0 0 0 12 2z"
+            ></path>
+          </svg>
+          <div class="user-info">
+            <h3>Hi there</h3>
+            <h2>Morgan Dakley(@morgan)</h2>
+          </div>
+        </div>
+        <div class="button-div">
+          <button>New</button>
+          <button>Upload</button>
+          <button>Share</button>
+        </div>
+      </header>
+      <section>
+        <div class="plates">
+          <h1>Your Projects</h1>
+          <div class="plate">
+            <h3>Super Cool Project</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum
+              aperiam illo minima officiis tempore? Doloribus perspiciatis nobis
+              officia sunt rem.
+            </p>
+            <div class="icons">
+              <img src="/images/bxs-star-half.svg" alt="" />
+              <img src="/images/bx-low-vision.svg" alt="" />
+              <img src="/images/bx-link-alt.svg" alt="" />
+            </div>
+          </div>
+          <div class="plate">
+            <h3>Super Cool Project</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum
+              aperiam illo minima officiis tempore? Doloribus perspiciatis nobis
+              officia sunt rem.
+            </p>
+            <div class="icons">
+              <img src="/images/bxs-star-half.svg" alt="" />
+              <img src="/images/bx-low-vision.svg" alt="" />
+              <img src="/images/bx-link-alt.svg" alt="" />
+            </div>
+          </div>
+          <div class="plate">
+            <h3>Super Cool Project</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum
+              aperiam illo minima officiis tempore? Doloribus perspiciatis nobis
+              officia sunt rem.
+            </p>
+            <div class="icons">
+              <img src="/images/bxs-star-half.svg" alt="" />
+              <img src="/images/bx-low-vision.svg" alt="" />
+              <img src="/images/bx-link-alt.svg" alt="" />
+            </div>
+          </div>
+          <div class="plate">
+            <h3>Super Cool Project</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum
+              aperiam illo minima officiis tempore? Doloribus perspiciatis nobis
+              officia sunt rem.
+            </p>
+            <div class="icons">
+              <img src="/images/bxs-star-half.svg" alt="" />
+              <img src="/images/bx-low-vision.svg" alt="" />
+              <img src="/images/bx-link-alt.svg" alt="" />
+            </div>
+          </div>
+          <div class="plate">
+            <h3>Super Cool Project</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum
+              aperiam illo minima officiis tempore? Doloribus perspiciatis nobis
+              officia sunt rem.
+            </p>
+            <div class="icons">
+              <img src="/images/bxs-star-half.svg" alt="" />
+              <img src="/images/bx-low-vision.svg" alt="" />
+              <img src="/images/bx-link-alt.svg" alt="" />
+            </div>
+          </div>
+          <div class="plate">
+            <h3>Super Cool Project</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum
+              aperiam illo minima officiis tempore? Doloribus perspiciatis nobis
+              officia sunt rem.
+            </p>
+            <div class="icons">
+              <img src="/images/bxs-star-half.svg" alt="" />
+              <img src="/images/bx-low-vision.svg" alt="" />
+              <img src="/images/bx-link-alt.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="second-plates">
+          <div class="plate2">
+            <h1>Announcements</h1>
+            <h3>Site Maintenance</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              recusandae officia neque molestias sed similique?
+            </p>
+            <hr />
+            <h3>Comunity Share Day</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              recusandae officia neque molestias sed similique?
+            </p>
+            <hr />
+            <h3>Updated Privacy Policy</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              recusandae officia neque molestias sed similique?
+            </p>
+          </div>
+          <div class="plate3">
+            <div class="part">
+              <img src="/images/bx-lemon.svg" alt="" />
+              <div class="img-information">
+                <h4>@tegan</h4>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+            <div class="part">
+              <img src="/images/bx-lemon.svg" alt="" />
+              <div class="img-information">
+                <h4>@tegan</h4>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+            <div class="part">
+              <img src="/images/bx-lemon.svg" alt="" />
+              <div class="img-information">
+                <h4>@tegan</h4>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+            <div class="part">
+              <img src="/images/bx-lemon.svg" alt="" />
+              <div class="img-information">
+                <h4>@tegan</h4>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
